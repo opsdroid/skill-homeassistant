@@ -5,7 +5,7 @@ import random
 def setup(opsdroid):
     logging.debug("Loaded hello module")
 
-@match_regex(r'hi|hello')
+@match_regex(r'hi|hello|hey')
 def hello(opsdroid, message):
     response = random.choice(["Hi {}", "Hello {}", "Hey {}"]).format(message.user)
     message.respond(response)
