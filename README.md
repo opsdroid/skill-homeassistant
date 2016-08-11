@@ -2,6 +2,10 @@
 
 A skill for [opsdroid](https://github.com/opsdroid/opsdroid) to respond to hello and goodbye messages.
 
+## Requirements
+
+None.
+
 ## Configuration
 
 This module requires no configuration.
