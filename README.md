@@ -8,7 +8,7 @@ None.
 
 ## Configuration
 
-This module requires no configuration.
+None.
 
 ## Usage
 
