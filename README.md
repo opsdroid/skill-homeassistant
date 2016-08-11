@@ -12,7 +12,7 @@ This module requires no configuration.
 
 ## Usage
 
-### `hello`
+#### `hello`
 
 Says hello to the user.
 
@@ -20,7 +20,7 @@ Says hello to the user.
 >
 > opsdroid: Hi user
 
-### `goodbye`
+#### `goodbye`
 
 Says goodbye to the user.
 
