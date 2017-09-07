@@ -6,7 +6,7 @@ A skill for [opsdroid](https://github.com/opsdroid/opsdroid) to interact with [h
 
 A homeassistant installation.
 
-To use the opsdroid notification you must configure the rest notify component in homeassistant to point to opsdroid.
+To use the opsdroid notification you must configure the [rest notify component](https://home-assistant.io/components/notify.rest/) in homeassistant to point to opsdroid.
 
 ```yaml
 notify:
