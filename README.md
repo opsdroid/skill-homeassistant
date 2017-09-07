@@ -1,32 +1,34 @@
-# opsdroid skill hello
+# opsdroid skill homeassistant
 
-A skill for [opsdroid](https://github.com/opsdroid/opsdroid) to respond to hello and goodbye messages.
+A skill for [opsdroid](https://github.com/opsdroid/opsdroid) to interact with [homeassistant](https://home-assistant.io/).
 
 ## Requirements
 
-None.
+A homeassistant installation.
 
+To use the opsdroid notification you must configure the rest notify component in homeassistant to point to opsdroid.
+
+```yaml
+notify:
+  - name: opsdroid
+    platform: rest
+    method: POST
+    resource: http://<opsdroid ip>:<opsdroid port>/skill/homeassistant/notify
+```
 ## Configuration
 
-None.
-
+```yaml
+skills:
+  - name: homeassistant
+    room: "#homeassistant"  # (Optional) room to send notifications to
+```
 ## Usage
 
-#### `hello`
+#### Notification
 
-Says hello to the user.
+When a notification is triggered in homeassistant it will be sent to opsdroid.
 
-> user: hello
->
-> opsdroid: Hi user
-
-#### `goodbye`
-
-Says goodbye to the user.
-
-> user: bye
->
-> opsdroid: Bye user
+> opsdroid: Here is your homeassistant notificaion
 
 ## License
 
