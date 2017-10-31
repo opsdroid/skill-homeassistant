@@ -29,7 +29,3 @@ skills:
 When a notification is triggered in homeassistant it will be sent to opsdroid.
 
 > opsdroid: Here is your homeassistant notificaion
-
-## License
-
-GNU General Public License Version 3 (GPLv3)
