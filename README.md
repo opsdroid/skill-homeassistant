@@ -5,11 +5,12 @@ pass opsdroid message through to the [conversation component](https://www.home-a
 
 ## Requirements
 
-A homeassistant installation.
+- A homeassistant installation.
 
 To use the opsdroid notification you must configure the [rest notify component](https://home-assistant.io/components/notify.rest/) in homeassistant to point to opsdroid.
 
 ```yaml
+# Home Assistant configuration file
 notify:
   - name: opsdroid
     platform: rest
@@ -18,6 +19,11 @@ notify:
 ```
 
 To use the conversation passthrough you must have the conversation component enabled in Home Assistant.
+
+```yaml
+# Home Assistant configuration file
+conversaion:
+```
 
 ## Configuration
 
@@ -44,5 +50,7 @@ When a notification is triggered in homeassistant it will be sent to opsdroid.
 When this is enabled all messages will be passed through to the Home Assistant conversation component.
 
 > user: turn on the bedroom light
+>
 > opsdroid: ok
+>
 > *Light comes on*
