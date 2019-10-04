@@ -43,7 +43,7 @@ skills:
 
 When a notification is triggered in homeassistant it will be sent to opsdroid.
 
-> opsdroid: Here is your homeassistant notificaion
+> opsdroid: Here is your homeassistant notification
 
 #### Conversation component passthrogh
 
