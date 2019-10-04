@@ -22,7 +22,7 @@ To use the conversation passthrough you must have the conversation component ena
 
 ```yaml
 # Home Assistant configuration file
-conversaion:
+conversation:
 ```
 
 ## Configuration
