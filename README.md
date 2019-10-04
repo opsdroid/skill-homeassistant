@@ -22,7 +22,7 @@ To use the conversation passthrough you must have the conversation component ena
 
 ```yaml
 # Home Assistant configuration file
-conversaion:
+conversation:
 ```
 
 ## Configuration
@@ -43,9 +43,9 @@ skills:
 
 When a notification is triggered in homeassistant it will be sent to opsdroid.
 
-> opsdroid: Here is your homeassistant notificaion
+> opsdroid: Here is your homeassistant notification
 
-#### Conversation component passthrogh
+#### Conversation component passthrough
 
 When this is enabled all messages will be passed through to the Home Assistant conversation component.
 
